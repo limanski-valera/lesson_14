@@ -165,6 +165,7 @@ body {
 	box-shadow: 10px 10px 20px rgba(154, 156, 165, 0.6);
 	transition: all 0.3s ease 0s;
 	align-items: flex-start;
+	height: 100%;
 }
 .architecture__item:hover {
 	transform: scale(1.05);
@@ -192,6 +193,7 @@ body {
 }
 .architecture__item p {
 	text-align: justify;
+	flex: 1 1 auto;
 }
 .architecture__button a {
 	color: #C73232;
